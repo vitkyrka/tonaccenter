@@ -46,9 +46,9 @@ device manually using the following process:
 5. Push the OGG files and the database to your device via ADB:
 
         $ adb shell
-        device$ mkdir -p /sdcard/Android/obb/tonaccenter/
-        $ adb push sentences.db /sdcard/Android/obb/tonaccenter/
-        $ adb push audio/*.ogg /sdcard/Android/obb/tonaccenter/
+        device$ mkdir -p /sdcard/Android/obb/se.whitchurch.tonaccenter/
+        $ adb push sentences.db /sdcard/Android/obb/se.whitchurch.tonaccenter/
+        $ adb push audio/*.ogg /sdcard/Android/obb/se.whitchurch.tonaccenter/
 
 ## License
 
